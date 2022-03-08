@@ -1,0 +1,24 @@
+h1 {
+    font: large;
+    font-size: 100px;
+}
+
+h2 {
+    font: large;
+    font-size: 50px;
+}
+
+h3 {
+    font: large;
+    font-size: 40px;
+    display: table;
+    padding-inline-end: 600px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 18px;
+}
