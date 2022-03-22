@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <p>Quiz Programação Web</p>
+</header>
+
+<body>
+
+<form action="#" method="post">
+<div class="scaffold">
+    
+    <div class="row">
+        <label id="titles">Questão 1</label>
+        <label for="language">Assinale apenas as linguagens de marcação:</label><br>
+        <input type="checkbox" name="language" value="JavaScript"/>JavaScript<br>
+        <input type="checkbox" name="language" value="HTML"/>HTML<br>
+        <input type="checkbox" name="language" value="Python"/>Python<br>
+        <input type="checkbox" name="language" value="C"/>C<br>
+    </div>
+    
+    <div class="row">
+        <label id="titles">Questão 2</label>
+        <label for="method">Quais dos métodos abaixo são métodos HTTP:</label><br>
+        <input type="radio" name="method" value="1"/>GET, POST, PUT, DELETE<br>
+        <input type="radio" name="method" value="2"/>SELECT, POST, INTO, DELETE<br>
+        <input type="radio" name="method" value="3"/>GET, INSERT, PUT, FROM<br>
+        <input type="radio" name="method" value="4"/>CATCH, POST, CREATE, DELETE<br>
+    </div>
+
+    <div class="row">
+        <label id="titles">Questão 3</label>
+        <label for="GETPOST">Baseado na imagem a seguir explique os métodos GET e POST:</label><br>
+        <img src="https://www.alura.com.br/artigos/assets/uploads/2018/02/wood-3046186_1920.jpg"><br>
+        <input type="text" name="GETPOST"/>
+    </div>
+
+    <div class="row">
+        <label id="titles">Questão 4</label>
+        <label for="tag">Marque a opção que contenha apenas tags HTML:</label><br>
+        <input type="radio" name="tag" value="1"/>a, br, label, print<br>
+        <input type="radio" name="tag" value="2"/>img, multiply, div, form<br>
+        <input type="radio" name="tag" value="3"/>html, body, footer, p<br>
+        <input type="radio" name="tag" value="4"/>try, except, canvas, helloworld<br>
+    </div>
+
+    <div class="row">
+        <label id="titles">Questão 5</label>
+        <label for="fullstack">Diferencie front-end de back-end:</label><br>
+        <input type="text" name="fullstack"/>
+    </div>
+    
+    <button class="submit" type="submit" name="submit">Enviar</button>
+    
+</div>
+</form>
+</body>
+</html>

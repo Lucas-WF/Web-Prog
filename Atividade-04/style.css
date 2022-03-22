@@ -1,0 +1,80 @@
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom-style: inset;
+    border-bottom-color: #c4c0bf;
+    background-color: #fffdfd;
+    padding: 10px;
+    box-shadow: 0 12px 8px 0 rgba(0,0,0,0.09),0 17px 20px 0 rgba(0,0,0,0.09);
+    display: flex;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0ecec;
+    margin: 0;
+}
+
+form {
+    margin-top: 30px;
+    font-size: 17px;
+}
+input {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #d1d1d4;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.09);
+    color: #000;
+}
+
+img {
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.scaffold {
+    padding-left: 28%;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.row {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #d1d1d4;
+    padding: 50px;
+    margin-top: 30px;
+    color: black;
+    min-width: 200px !important;
+    width: 60% !important;
+}
+
+#titles {
+    font-weight: 800;
+    color: #2F4F4F;
+}
+
+input[type="text"] {
+    margin-top: 30px;
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
